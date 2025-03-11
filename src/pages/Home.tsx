@@ -23,7 +23,7 @@ export default function Home() {
         
         <div className="flex-1" data-aos="fade-left">
           <img
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600"
+            src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=3131&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Developer"
             className="w-full rounded-lg shadow-xl"
           />
