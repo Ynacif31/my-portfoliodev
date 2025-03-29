@@ -3,6 +3,7 @@ import PD from '../assets/SCR-20250311-mytp.png'
 import SF from '../assets/SCR-20250311-mzlg.png'
 import Email from '../assets/SCR-20250311-nboq.png'
 import Nutrition from '../assets/SCR-20250311-nfgw.png'
+import av from '../assets/avanti.png' // Adicionando a imagem do novo projeto
 
 const projects = [
   {
@@ -12,6 +13,14 @@ const projects = [
     technologies: ['Spring Boot', 'Spring Security', 'JPA', 'H2', 'Docker'],
     demoUrl: 'https://github.com/Ynacif31/productsCatalog',
     githubUrl: 'https://github.com/Ynacif31/productsCatalog',
+  },
+  {
+    title: 'Desafio AVANTI Frontend',
+    description: 'Desafio de Frontend da empresa AVANTI com HTML, CSS e Tailwind CSS.',
+    image: av, // Usando a imagem do novo projeto
+    technologies: ['HTML', 'CSS', 'Tailwind CSS'],
+    demoUrl: 'https://desafio-avanti.vercel.app/',
+    githubUrl: 'https://github.com/Ynacif31/desafio-avanti',
   },
   {
     title: 'BehealthyNutrition (Em Desenvolvimento)',
@@ -88,7 +97,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="flex-1 text-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                   >
-                    Ver no GitHub
+                    Ver prévia
                   </a>
                   <a
                     href={project.githubUrl}
